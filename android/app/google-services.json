@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157060324279",
+    "project_id": "on-the-best",
+    "storage_bucket": "on-the-best.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157060324279:android:98ba931a52d14856e76632",
+        "android_client_info": {
+          "package_name": "com.example.onthebest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABkP12cw8iSO_8hExinVcKdIGdnpBbMmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
