@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddRepresentativeScreen extends StatefulWidget {
-  const AddRepresentativeScreen({Key? key}) : super(key: key);
+  const AddRepresentativeScreen({super.key});
 
   @override
   State<AddRepresentativeScreen> createState() =>

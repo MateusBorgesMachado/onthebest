@@ -22,7 +22,7 @@ class TransactionListItem extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
-              color: iconColor?.withOpacity(0.15),
+              color: iconColor?.withValues(alpha: 0.15),
               borderRadius: BorderRadius.circular(12),
             ),
             child: Icon(iconData, size: 28, color: iconColor),
@@ -76,7 +76,7 @@ class TransactionListItem extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                '$prefixSign R\$ ${transaction.totalAmount}',
+                '$prefixSign R\$ ${transaction.totalValue}',
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,

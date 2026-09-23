@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:onthebest/utils/main_navigator.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+    await Supabase.initialize(
+    url: 'https://rrmohnvpsfxzcflxfohf.supabase.co',
+    anonKey: 'sb_publishable_OTn9yw64zzGRgplhzcyuyA_Dv356ExV',
+  );
 
   runApp(const OnTheBestApp());
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddCustomerScreen extends StatefulWidget {
-  const AddCustomerScreen({Key? key}) : super(key: key);
+  const AddCustomerScreen({super.key});
 
   @override
   State<AddCustomerScreen> createState() => _AddCustomerScreenState();
@@ -186,7 +186,7 @@ class _AddCustomerScreenState extends State<AddCustomerScreen> {
     required void Function(String?) onChanged,
   }) {
     return DropdownButtonFormField<String>(
-      value: value,
+      initialValue: value,
       dropdownColor: const Color(0xFF2A2A2A),
       style: const TextStyle(color: Colors.white),
       decoration: InputDecoration(

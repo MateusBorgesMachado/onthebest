@@ -3,7 +3,7 @@ class AppTransaction {
   final String type;
   final String entityName;
   final String date;
-  final String totalAmount;
+  final String totalValue;
   final int itemCount;
 
   AppTransaction({
@@ -11,7 +11,7 @@ class AppTransaction {
     required this.type,
     required this.entityName,
     required this.date,
-    required this.totalAmount,
+    required this.totalValue,
     required this.itemCount,
   });
 }

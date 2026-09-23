@@ -56,7 +56,7 @@ final List<AppTransaction> mockTransactions = [
     type: 'Venda',
     entityName: 'Rafael Mendes',
     date: '11/08/2026',
-    totalAmount: '450,00',
+    totalValue: '450,00',
     itemCount: 3,
   ),
   AppTransaction(
@@ -64,7 +64,7 @@ final List<AppTransaction> mockTransactions = [
     type: 'Compra',
     entityName: 'Atacadão Têxtil Brás',
     date: '10/08/2026',
-    totalAmount: '2.150,00',
+    totalValue: '2.150,00',
     itemCount: 45,
   ),
   AppTransaction(
@@ -72,7 +72,7 @@ final List<AppTransaction> mockTransactions = [
     type: 'Venda',
     entityName: 'Lucas Almeida',
     date: '09/08/2026',
-    totalAmount: '120,00',
+    totalValue: '120,00',
     itemCount: 1,
   ),
   AppTransaction(
@@ -80,7 +80,7 @@ final List<AppTransaction> mockTransactions = [
     type: 'Compra',
     entityName: 'Importadora Alfa',
     date: '05/08/2026',
-    totalAmount: '850,00',
+    totalValue: '850,00',
     itemCount: 15,
   ),
 ];

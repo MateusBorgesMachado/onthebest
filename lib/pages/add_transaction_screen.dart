@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddTransactionScreen extends StatefulWidget {
-  const AddTransactionScreen({Key? key}) : super(key: key);
+  const AddTransactionScreen({super.key});
 
   @override
   State<AddTransactionScreen> createState() => _AddTransactionScreenState();
@@ -204,7 +204,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(12),
-                        side: BorderSide(color: activeColor.withOpacity(0.5)),
+                        side: BorderSide(color: activeColor.withValues(alpha: 0.5)),
                       ),
                     ),
                     icon: const Icon(Icons.add_shopping_cart, size: 20),
@@ -325,7 +325,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
         child: Container(
           decoration: BoxDecoration(
             color: isActive
-                ? activeColor.withOpacity(0.15)
+                ? activeColor.withValues(alpha: 0.15)
                 : Colors.transparent,
             borderRadius: BorderRadius.circular(10),
           ),
@@ -352,7 +352,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
     required void Function(String?) onChanged,
   }) {
     return DropdownButtonFormField<String>(
-      value: value,
+      initialValue: value,
       dropdownColor: const Color(0xFF2A2A2A),
       style: const TextStyle(color: Colors.white),
       decoration: InputDecoration(

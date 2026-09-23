@@ -65,8 +65,8 @@ class CustomerListItem extends StatelessWidget {
                         ),
                         decoration: BoxDecoration(
                           color: isVip
-                              ? const Color(0xFFFFCC00).withOpacity(0.2)
-                              : Colors.grey.withOpacity(0.1),
+                              ? const Color(0xFFFFCC00).withValues(alpha: 0.2)
+                              : Colors.grey.withValues(alpha: 0.1),
                           borderRadius: BorderRadius.circular(4),
                           border: Border.all(
                             color: isVip
